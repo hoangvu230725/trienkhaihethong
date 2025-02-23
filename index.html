@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+           background-image: url(bg.jpg);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+        h1 {
+            margin: 15px 0 10px;
+            font-size: 26px;
+        }
+        p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: cyan;
+        }
+        .note{
+            text-align: center;
+            font-size: 24px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="hv.jpg" alt="Ảnh cá nhân" class="avatar">
+        <h1>Nguyen Hoang Vu</h1>
+        <p>Web Developer | Designer | Freelancer</p>
+        <div class="social-icons">
+            <a href="https://facebook.com/hagv.onu" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="tel:0399711604"><i class="fas fa-phone"></i></a>
+            <a href="mailto:hoangvu23705@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+    <div class="note">
+        <p>Click vào icon trên để liên hệ với tôi !!!</p>
+    </div>
+</body>
+</html>
